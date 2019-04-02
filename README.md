@@ -1,4 +1,4 @@
-# plymouth-manager
+# Plymouth Manager
 
 Theme manager for Plymouth bootsplash
 
