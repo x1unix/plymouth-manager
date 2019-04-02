@@ -4,7 +4,7 @@ TMP_FILE="/tmp/plym"
 DEST="/usr/local/bin/plym"
 echo "Downloading plym..."
 curl "${DOWNLOAD_URL}" -o "${TMP_FILE}"
-local curl_result=$?
+curl_result=$?
 if [ $curl_result -ne 0 ]; then
 	echo "ERROR: failed to download Plym (${curl_result})"
 	exit 1
