@@ -10,6 +10,6 @@ if [ $curl_result -ne 0 ]; then
 	exit 1
 fi
 chmod +x "${TMP_FILE}"
-echo "Plym downloaded, copying to '${DEST}"
+echo "Plym downloaded, copying to '${DEST}'"
 sudo mv "${TMP_FILE}" ${DEST}
 echo "Done"
