@@ -5,7 +5,7 @@ Theme manager for Plymouth bootsplash
 ## Installation
 
 ```bash
-sudo curl https://raw.githubusercontent.com/x1unix/plymouth-manager/master/plym.sh -o /usr/local/bin/plym
+curl https://raw.githubusercontent.com/x1unix/plymouth-manager/master/install.sh | sh
 ```
 
 ## Usage
